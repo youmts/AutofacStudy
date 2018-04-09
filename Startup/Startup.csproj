@@ -35,6 +35,12 @@
     <Reference Include="Autofac, Version=4.6.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.4.6.2\lib\net45\Autofac.dll</HintPath>
     </Reference>
+    <Reference Include="Autofac.Extras.CommonServiceLocator, Version=5.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Extras.CommonServiceLocator.5.0.0\lib\net45\Autofac.Extras.CommonServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonServiceLocator, Version=2.0.1.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.2.0.1\lib\net45\CommonServiceLocator.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -57,9 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibraryImplement\LibraryImplement.csproj">
-      <Project>{dbd13d2f-d7ce-408c-b37f-152f4350859c}</Project>
-      <Name>LibraryImplement</Name>
+    <ProjectReference Include="..\AutofacModule\AutofacModule.csproj">
+      <Project>{0e69df2e-7230-450a-acf8-f77880470717}</Project>
+      <Name>AutofacModule</Name>
     </ProjectReference>
     <ProjectReference Include="..\LibraryInterface\LibraryInterface.csproj">
       <Project>{b6fb3758-e6a7-4f96-9dab-4799a66aeb0a}</Project>

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryInterface", "Library
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryImplement", "LibraryImplement\LibraryImplement.csproj", "{DBD13D2F-D7CE-408C-B37F-152F4350859C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacModule", "AutofacModule\AutofacModule.csproj", "{0E69DF2E-7230-450A-ACF8-F77880470717}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DBD13D2F-D7CE-408C-B37F-152F4350859C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBD13D2F-D7CE-408C-B37F-152F4350859C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBD13D2F-D7CE-408C-B37F-152F4350859C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E69DF2E-7230-450A-ACF8-F77880470717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E69DF2E-7230-450A-ACF8-F77880470717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E69DF2E-7230-450A-ACF8-F77880470717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E69DF2E-7230-450A-ACF8-F77880470717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
